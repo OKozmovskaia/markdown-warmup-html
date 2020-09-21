@@ -3,12 +3,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My first page from Markdown to HTML</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Olga Kozmovskaia</h1>
-  <p>Silence is gold</p>
+  <p class="yellow">Silence is gold</p>
   <img src="IMG_1872.jpg" alt="photo">
-  <p>Girl from the North. A psychologist by vocation, but I will work as web-developer</p>
+  <p>Girl from the <span>North</span>. A psychologist by vocation, but I will work as web-developer</p>
+  
+  <div id="someFacts">
   <table>
     <tr>
       <th>Some facts</th>
@@ -32,6 +35,7 @@
     </tr>
   </table>
 
+  <div id="hobby">
   <h3>Hobbies</h3>
   <ul>
     <li>cooking</li>
@@ -45,12 +49,15 @@
     </li>
     <li>talking with my friends</li>
   </ul>
+  </div>
 
-  <p>You can always count on me when you forget sanitizer or patch or sunscreen</p>
+</div>
+
+  <p class="yellow">You can always count on me when you forget sanitizer or patch or <span>sunscreen</span></p>
 
   <h3>A funny story</h3>
   <p>When my husband moved to Brussels, he advised me to learn [dʌʧ] lunguage . He didn’t elaborate, and I didn’t check it and started learning Danish instead of Dutch. Only after a month did we realize that I was learning the wrong language. Until now I have not yet taken up Danish.</p>
-  <p>Moral: before moving to another country, check the languages spoken by the locals</p>
-  <a href="url">Nicolas</a> <a href="url">|| Olga ||</a> <a href="url">Oliver</a>
+  <p class="yellow">Moral: before moving to another country, check the languages spoken by the locals</p>
+  <a href="url"> <<< Nicolas</a> <a href="url">|| Olga ||</a> <a href="url">Oliver >>> </a>
 </body>
 </html>
